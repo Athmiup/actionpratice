@@ -2,7 +2,7 @@ name: Test My GitHub Action
 
 on:
   push:
-    branches: [ main ]
+    branches: main
 
 jobs:
   test-action:
