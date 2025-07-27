@@ -1,0 +1,19 @@
+{
+  "name": "my-github-action",
+  "version": "1.0.0",
+  "description": "A GitHub Action that performs a specific task.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "echo 'Building the action...'",
+    "test": "echo 'Running tests...'"
+  },
+  "keywords": [
+    "github",
+    "action"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}

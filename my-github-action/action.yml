@@ -1,0 +1,13 @@
+name: My GitHub Action
+description: A brief description of what this action does.
+inputs:
+  example_input:
+    description: 'An example input for the action'
+    required: true
+    default: 'default value'
+outputs:
+  example_output:
+    description: 'An example output from the action'
+runs:
+  using: 'node12'
+  main: 'src/index.js'
