@@ -1,0 +1,15 @@
+name: Test My GitHub Action
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  test-action:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run my custom action
+        uses: ./my-github-action
+        with:
+          example_input: 'Hello from workflow'
